@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F4ACCEED24B512DD003E1955 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4ACCEEC24B512DD003E1955 /* main.cpp */; };
+		F4ACCEF524B512FD003E1955 /* card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4ACCEF324B512FD003E1955 /* card.cpp */; };
+		F4ACCEF824B51A38003E1955 /* deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4ACCEF624B51A38003E1955 /* deck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		F4ACCEE924B512DD003E1955 /* CS162-Lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS162-Lab4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ACCEEC24B512DD003E1955 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4ACCEF324B512FD003E1955 /* card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = card.cpp; sourceTree = "<group>"; };
+		F4ACCEF424B512FD003E1955 /* card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = card.hpp; sourceTree = "<group>"; };
+		F4ACCEF624B51A38003E1955 /* deck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deck.cpp; sourceTree = "<group>"; };
+		F4ACCEF724B51A38003E1955 /* deck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = deck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				F4ACCEEC24B512DD003E1955 /* main.cpp */,
+				F4ACCEF324B512FD003E1955 /* card.cpp */,
+				F4ACCEF424B512FD003E1955 /* card.hpp */,
+				F4ACCEF624B51A38003E1955 /* deck.cpp */,
+				F4ACCEF724B51A38003E1955 /* deck.hpp */,
 			);
 			path = "CS162-Lab4";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4ACCEED24B512DD003E1955 /* main.cpp in Sources */,
+				F4ACCEF524B512FD003E1955 /* card.cpp in Sources */,
+				F4ACCEF824B51A38003E1955 /* deck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
