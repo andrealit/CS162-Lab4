@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  deal_hand.cpp
 //  CS162-Lab4
 //
 //  Created by Andrea Tongsak on 7/7/20.
@@ -10,6 +10,19 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    // Initialize a deck of 52 cards
+    
+    
+    // Shuffles the deck
+    
+    
+    // Deals the hand
+    
+    
+    // Prints out the hand to the console
+    
+    
+    
     return 0;
 }

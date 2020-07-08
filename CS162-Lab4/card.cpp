@@ -16,20 +16,38 @@ Card::Card(){
     suit = 0;
 }
 
-void Card::setCard(int inRank, int inSuit) {
-    rank = inRank;
-    suit = inSuit;
-}
-
-int Card::getRank() {
-    return rank;
-}
-
-int Card::getSuit() {
-    return suit;
+Card::Card(int rank, int suit) {
+    this->rank = rank;
+    this->suit = suit;
 }
 
 Card::~Card() {
     // Destructor
 }
+
+// Functions
+
+void Card::setCard(int inRank, int inSuit) {
+    this->rank = inRank;
+    this->suit = inSuit;
+}
+
+int Card::getRank() {
+    return this->rank;
+}
+
+void Card::setRank(int inRank) {
+    this->rank = inRank;
+}
+
+int Card::getSuit() {
+    return this->suit;
+}
+
+void Card::setSuit(int inSuit) {
+    this->suit = inSuit;
+}
+
+
+
 

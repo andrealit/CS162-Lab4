@@ -25,11 +25,18 @@ class Card {
     public:
     // constructors, destructor, accessors, and mutators
         Card();
+        // destructor
+        Card(int rank, int suit);
+        ~Card();
+    
         void setCard(int, int);
         int getRank();
+    
+        void setRank(int);
         int getSuit();
-        // destructor
-        ~Card();
+    
+        void setSuit(int);
+        
 };
 
 #endif
