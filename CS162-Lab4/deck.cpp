@@ -38,13 +38,13 @@ void Deck::printDeck() {
     // variables
     int suit, rank;
     
-    cout << "PRINTING OUT DECK" << endl;
+    cout << "PRINT OUT DECK" << endl;
     // for loop
     for (int card = 0; card < 52; ++card) {
         // assign the card
         suit = this->deck[card].getSuit();
         rank = this->deck[card].getRank();
-        cout << "Card suit: " << suit << "Card rank: " << rank << endl;
+        cout << "Card suit: " << suit << ", Card rank: " << rank << endl;
     }
 }
 

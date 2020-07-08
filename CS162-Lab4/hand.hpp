@@ -16,18 +16,17 @@ using namespace std;
 
 class Hand {
     private:
-        Card* cards;
+        Card* hand;
         int nCards;
     public:
         Hand();
-        Hand(const Hand&);
-        void printOut();
-        Card* getHand();
-        Card* addCard();
-        void setCard(Card);
-        int getNumCard();
-        void removeCard(int);
         ~Hand();
+    
+        void printOut();
+        void addCard(Card cardAdd);
+        Card popCardHand(int number);
+        int getNumCard();
+        void removeCard(int remove);
 };
 
 #endif /* hand_hpp */
