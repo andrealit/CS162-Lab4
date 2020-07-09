@@ -8,21 +8,30 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
+#include "deck.hpp"
+#include "hand.hpp"
+#include "card.hpp"
+
+int main() {
     // insert code here...
     
     // Initialize a deck of 52 cards
-    
+    Deck testDeck;
     
     // Shuffles the deck
-    
+    testDeck.shuffleDeck();
     
     // Deals the hand
+    Hand testHand;
     
+    // Must deal seven
+    Card temp;
+    for (int i = 0; i < 7; ++i) {
+        temp = testDeck.popCard();
+        testHand.addCard(temp);
+    }
     
     // Prints out the hand to the console
+    testHand.printOut();
     
-    
-    
-    return 0;
 }

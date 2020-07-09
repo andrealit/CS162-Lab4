@@ -47,7 +47,7 @@ Card Hand::popCardHand(int number) {
     
     // for loop to go through the hand
     for (int i = 0; i < this->nCards; ++i) {
-        if(this->hand[i].getRank()==number) {
+        if(this->hand[i].getRank() == number) {
             // need to get rid of a card, so save the current
             temp = this->hand[i];
             // assign the current to the last,

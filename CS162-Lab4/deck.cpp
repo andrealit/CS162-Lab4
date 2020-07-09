@@ -16,7 +16,6 @@ Deck::Deck() {
     for(int suit = 0; suit < 4; ++suit) {
         for(int rank = 0; rank < 13; ++rank) {
             // assign each one
-            cout << "Creating Deck" << endl;
             this->deck[suit*13+rank].setRank(rank);
             this->deck[suit*13+rank].setSuit(suit);
         }
